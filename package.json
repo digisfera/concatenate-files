@@ -1,0 +1,24 @@
+{
+  "name": "concat-file-fun",
+  "version": "0.0.0",
+  "description": "Functions to concatenate files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:manuelcabral/concat-file-fun.git"
+  },
+  "keywords": [
+    "concat",
+    "file",
+    "build"
+  ],
+  "author": "Manuel Cabral (m.cabral@digisfera.pt)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuelcabral/concat-file-fun/issues"
+  },
+  "homepage": "https://github.com/manuelcabral/concat-file-fun"
+}
