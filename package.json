@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/manuelcabral/concat-file-fun/issues"
   },
-  "homepage": "https://github.com/manuelcabral/concat-file-fun"
+  "homepage": "https://github.com/manuelcabral/concat-file-fun",
+  "dependencies": {
+    "file-fun": "*"
+  }
 }
