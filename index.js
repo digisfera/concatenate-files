@@ -1,9 +1,18 @@
 var fileFun = require('file-fun');
 
-exports.sync = function(contents, separator) {
-  separator = separator || '';
-  return contents.join(separator);
-}
-exports.globsToFile = fileFun.sync_globsToFile(exports.sync)
-exports.filesToFile = fileFun.sync_filesToFile(exports.sync)
-exports.async = fileFun.sync_async(exports.sync)
+
+exports.files = function(inputFiles, outputFile, options, callback) {
+  options = options || {};
+
+  fileFun.readFilesUtf8(inputFiles, function(err, filesData) {
+    separator = options.separator || '';
+
+    var res = null;
+    try {
+      res = filesData.join(separator);
+    } catch(e) { return callback(e); }
+
+    fileFun.mkWriteFile(outputFile, res, callback);
+  });
+
+};
