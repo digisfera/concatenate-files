@@ -23,6 +23,6 @@ Concatenate files
 
     concat(['f1.js', 'f2.js'], 'out.js', { separator: ';' }, function(err, concatted) { });
 
-# TODO
+## TODO
 
 Support source maps. Extract logic from [grunt-concat-sourcemap](https://github.com/kozy4324/grunt-concat-sourcemap)?
