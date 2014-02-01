@@ -14,14 +14,16 @@ Concatenate files
 * `outputFile` - file to write with result
 * `options` - options object
   * `separator` - separator to insert between file content
-* `callback` - function that will be called with `(err, result)`
+* `callback` - function that will be called with `(err, { outputFile, outputData })`
 
 
 ## Example
 
     var concat = require('concat-file');
 
-    concat(['f1.js', 'f2.js'], 'out.js', { separator: ';' }, function(err, concatted) { });
+    concat(['f1.js', 'f2.js'], 'out.js', { separator: ';' }, function(err, result) {
+      // result == { outputFile: 'out.js', outputData: '...' }
+    });
 
 ## TODO
 
