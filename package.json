@@ -1,6 +1,6 @@
 {
   "name": "concat-file-fun",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Functions to concatenate files",
   "main": "index.js",
   "scripts": {
@@ -22,10 +22,11 @@
   },
   "homepage": "https://github.com/digisfera/concat-file-fun",
   "dependencies": {
-    "file-fun": "*"
+    "file-rw": "0.0.1"
   },
   "devDependencies": {
     "chai": "~1.8.1",
-    "mocha": "~1.17.1"
+    "mocha": "~1.17.1",
+    "coffee-script": "~1.7.1"
   }
 }

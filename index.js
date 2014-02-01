@@ -1,9 +1,9 @@
-var fileFun = require('file-fun');
+var filerw = require('file-rw');
 
 module.exports = function(inputFiles, outputFile, options, callback) {
   options = options || {};
 
-  fileFun.readFilesUtf8(inputFiles, function(err, filesData) {
+  filerw.readFilesUtf8(inputFiles, function(err, filesData) {
     separator = options.separator || '';
 
     var res = null;
@@ -11,7 +11,7 @@ module.exports = function(inputFiles, outputFile, options, callback) {
       res = filesData.join(separator);
     } catch(e) { return callback(e); }
 
-    fileFun.mkWriteFile(outputFile, res, callback);
+    filerw.mkWriteFile(outputFile, res, callback);
   });
 
 };
