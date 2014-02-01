@@ -1,7 +1,6 @@
 var fileFun = require('file-fun');
 
-
-exports.files = function(inputFiles, outputFile, options, callback) {
+module.exports = function(inputFiles, outputFile, options, callback) {
   options = options || {};
 
   fileFun.readFilesUtf8(inputFiles, function(err, filesData) {
