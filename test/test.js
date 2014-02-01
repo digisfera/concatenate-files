@@ -17,7 +17,7 @@ describe('concat-file-fun', function() {
         outFile = __dirname + "/tmp/concat01.txt";
     concatFun([inFile1, inFile2], outFile, { separator: '.' }, function(err, result) {
       expect(err).to.be.not.ok;
-      expect(result).to.equal('foo.bar');
+      expect(result).to.eql({ outputData: 'foo.bar', outputFile: outFile });
       expect(readFileUtf8(outFile)).to.equal('foo.bar');
       done();
     });

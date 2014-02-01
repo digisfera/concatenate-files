@@ -20,7 +20,7 @@ module.exports = function(inputFiles, outputFile, options, callback) {
 
     filerw.mkWriteFile(outputFile, res, function(err, success) {
       if(err) { callback(err); }
-      else { callback(null, res); }
+      else { callback(null, { outputFile: outputFile, outputData: res }); }
     });
   });
 
