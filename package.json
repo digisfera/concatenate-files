@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/digisfera/concat-file",
   "dependencies": {
-    "file-rw": "0.0.1"
+    "file-rw": "*"
   },
   "devDependencies": {
     "chai": "~1.8.1",
