@@ -1,14 +1,14 @@
 {
-  "name": "concat-file-fun",
+  "name": "concat-file",
   "version": "0.0.4",
-  "description": "Functions to concatenate files",
+  "description": "Concatenate files",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:digisfera/concat-file-fun.git"
+    "url": "git@github.com:digisfera/concat-file.git"
   },
   "keywords": [
     "concat",
@@ -18,9 +18,9 @@
   "author": "Manuel Cabral (m.cabral@digisfera.pt)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/digisfera/concat-file-fun/issues"
+    "url": "https://github.com/digisfera/concat-file/issues"
   },
-  "homepage": "https://github.com/digisfera/concat-file-fun",
+  "homepage": "https://github.com/digisfera/concat-file",
   "dependencies": {
     "file-rw": "0.0.1"
   },
