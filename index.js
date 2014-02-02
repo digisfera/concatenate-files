@@ -1,4 +1,5 @@
-var filerw = require('file-rw');
+var filerw = require('file-rw'),
+    _ = require('lodash');
 
 module.exports = function(inputFiles, outputFile, options, callback) {
   if(!callback && _.isFunction(options)) {

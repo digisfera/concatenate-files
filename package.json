@@ -1,6 +1,6 @@
 {
   "name": "concatenate-files",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Concatenate files",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/digisfera/concatenate-files",
   "dependencies": {
-    "file-rw": "~0.1.0"
+    "file-rw": "~0.1.0",
+    "lodash": "~2.4.1"
   },
   "devDependencies": {
     "chai": "~1.8.1",
