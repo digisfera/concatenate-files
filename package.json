@@ -1,5 +1,5 @@
 {
-  "name": "concat-file",
+  "name": "concatenate-files",
   "version": "0.1.0",
   "description": "Concatenate files",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:digisfera/concat-file.git"
+    "url": "git@github.com:digisfera/concatenate-files.git"
   },
   "keywords": [
     "concat",
@@ -18,9 +18,9 @@
   "author": "Manuel Cabral (m.cabral@digisfera.pt)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/digisfera/concat-file/issues"
+    "url": "https://github.com/digisfera/concatenate-files/issues"
   },
-  "homepage": "https://github.com/digisfera/concat-file",
+  "homepage": "https://github.com/digisfera/concatenate-files",
   "dependencies": {
     "file-rw": "~0.1.0"
   },

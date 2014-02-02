@@ -1,10 +1,10 @@
-# concat-file
+# concatenate-files
 
 Concatenate files
 
 ## Installation
 
-    npm install concat-file
+    npm install concatenate-files
 
 ## Usage
 
@@ -19,7 +19,7 @@ Concatenate files
 
 ## Example
 
-    var concat = require('concat-file');
+    var concat = require('concatenate-files');
 
     concat(['f1.js', 'f2.js'], 'out.js', { separator: ';' }, function(err, result) {
       // result == { outputFile: 'out.js', outputData: '...' }
