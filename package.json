@@ -1,6 +1,6 @@
 {
   "name": "concat-file",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Concatenate files",
   "main": "index.js",
   "scripts": {
@@ -16,13 +16,13 @@
     "build"
   ],
   "author": "Manuel Cabral (m.cabral@digisfera.pt)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/digisfera/concat-file/issues"
   },
   "homepage": "https://github.com/digisfera/concat-file",
   "dependencies": {
-    "file-rw": "*"
+    "file-rw": "~0.1.0"
   },
   "devDependencies": {
     "chai": "~1.8.1",
